@@ -170,9 +170,13 @@ section .items .item .info h2 {
 }
 
 @media only screen and (max-width: 900px) {
+  /* SECTION */
+
   section {
     padding: 64px 16px;
   }
+
+  /* TITLE */
 
   section .title {
     gap: 16px;
@@ -192,6 +196,8 @@ section .items .item .info h2 {
     font-size: 18px;
   }
 
+  /* ITEMS */
+
   section .items {
     gap: 64px;
   }
@@ -200,6 +206,8 @@ section .items .item .info h2 {
     width: 304px;
     height: 388px;
   }
+
+  /* ITEM IMAGES */
 
   section .items .item .images .first-img {
     width: 304px;
@@ -231,6 +239,8 @@ section .items .item .info h2 {
     left: 195.91px;
     top: 195.91px;
   }
+
+  /* ITEM INFO */
 
   section .items .item .info {
     width: 304px;
