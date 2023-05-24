@@ -89,6 +89,16 @@ section .items .item {
   border: 1px solid black;
 }
 
+section .items .item .images .first-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  object-fit: cover;
+  width: 360px;
+  height: 360px;
+}
+
 img {
   width: 50px;
   height: 50px;
