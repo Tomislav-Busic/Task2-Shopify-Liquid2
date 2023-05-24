@@ -187,4 +187,8 @@ section .items .item .info h2 {
   section .title p {
     font-size: 20px;
   }
+
+  section .title button {
+    font-size: 18px;
+  }
 }
