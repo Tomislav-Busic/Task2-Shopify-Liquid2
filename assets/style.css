@@ -170,4 +170,21 @@ section .items .item .info h2 {
 }
 
 @media only screen and (max-width: 900px) {
+  section {
+    padding: 64px 16px;
+  }
+
+  section .title {
+    gap: 16px;
+    width: 343px;
+    height: 150px;
+  }
+
+  section .title h1 {
+    font-size: 36px;
+  }
+
+  section .title p {
+    font-size: 20px;
+  }
 }
