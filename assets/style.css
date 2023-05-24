@@ -7,13 +7,20 @@
 }
 
 section {
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 64px;
   gap: 64px;
   position: relative;
-  width: 1440px;
+  max-width: 1440px;
   height: 815px;
-  background: #ffffff;
+  background: #b74444;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
