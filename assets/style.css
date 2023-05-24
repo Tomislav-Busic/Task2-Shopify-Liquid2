@@ -14,7 +14,6 @@ section {
   align-items: center;
   padding: 64px;
   gap: 64px;
-  position: relative;
   max-width: 1440px;
   min-height: 815px;
   background: #ffffff;
@@ -69,11 +68,13 @@ section .title button {
 section .items {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   padding: 0px;
   gap: 32px;
+  width: 100%;
+  min-height: 472px;
 }
 
 section .items .item {
@@ -86,6 +87,7 @@ section .items .item {
   width: 360px;
   height: 472px;
   border: 1px solid black;
+  position: relative;
 }
 
 section .items .item .images .first-img {
@@ -97,6 +99,37 @@ section .items .item .images .first-img {
   width: 360px;
   height: 360px;
   border-radius: 50%;
+  z-index: 0;
+}
+
+section .items .item .images .second-img {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  z-index: -100;
+  border-radius: 50%;
+}
+
+section .items .item .images .left-top {
+  left: -28.1%;
+  right: -17.36%;
+  top: 0%;
+  bottom: -17.7%;
+}
+
+section .items .item .images .left-bottom {
+  left: -46px;
+  top: 236px;
+}
+
+section .items .item .images .right-top {
+  left: 230px;
+  top: -32px;
+}
+
+section .items .item .images .right-bottom {
+  left: 232px;
+  top: 232px;
 }
 
 section .items .item .info {
@@ -113,8 +146,5 @@ section .items .item .info h2 {
   text-align: center;
   text-transform: uppercase;
   color: #000000;
-}
-
-.second-img {
-  display: none;
+  z-index: 100;
 }
