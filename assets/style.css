@@ -75,8 +75,7 @@ section .items {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+  align-items: flex-start;
   padding: 0px;
   gap: 32px;
   width: 100%;
@@ -156,4 +155,19 @@ section .items .item .info h2 {
   text-transform: uppercase;
   color: #000000;
   z-index: 100;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1350px) {
+  section .items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 900px) {
 }
