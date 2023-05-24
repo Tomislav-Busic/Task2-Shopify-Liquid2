@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500&display=swap");
 
 * {
   margin: 0;
@@ -16,7 +17,53 @@ section {
   position: relative;
   max-width: 1440px;
   height: 815px;
-  background: #b74444;
+  background: #ffffff;
+}
+
+section .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  max-width: 1312px;
+  height: 151px;
+}
+
+section .title h1 {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 110%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+section .title p {
+  font-family: "Rajdhani";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+  color: #000000;
+}
+
+section .title button {
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  border: none;
+  background: none;
+  cursor: pointer;
 }
 
 img {
