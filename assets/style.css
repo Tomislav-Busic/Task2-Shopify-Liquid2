@@ -191,4 +191,60 @@ section .items .item .info h2 {
   section .title button {
     font-size: 18px;
   }
+
+  section .items {
+    gap: 64px;
+  }
+
+  section .items .item {
+    width: 304px;
+    height: 388px;
+  }
+
+  section .items .item .images .first-img {
+    width: 304px;
+    height: 304px;
+  }
+
+  section .items .item .images .second-img {
+    width: 135px;
+    height: 135px;
+  }
+
+  section .items .item .images .left-top {
+    left: -18.52%;
+    right: -16.77%;
+    top: 0%;
+  }
+
+  section .items .item .images .left-bottom {
+    left: -38.84px;
+    top: 199.29px;
+  }
+
+  section .items .item .images .right-top {
+    left: 194.22px;
+    top: -27.02px;
+  }
+
+  section .items .item .images .right-bottom {
+    left: 195.91px;
+    top: 195.91px;
+  }
+
+  section .items .item .info {
+    width: 304px;
+    height: 52px;
+  }
+
+  section .items .item .info h2 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  section .items {
+    width: 304px;
+    gap: 64px;
+  }
 }
