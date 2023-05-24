@@ -16,8 +16,9 @@ section {
   gap: 64px;
   position: relative;
   max-width: 1440px;
-  height: 815px;
+  min-height: 815px;
   background: #ffffff;
+  border: 1px solid black;
 }
 
 section .title {
@@ -64,6 +65,28 @@ section .title button {
   border: none;
   background: none;
   cursor: pointer;
+}
+
+section .items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0px;
+  gap: 32px;
+}
+
+section .items .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+  isolation: isolate;
+  width: 360px;
+  height: 472px;
+  border: 1px solid black;
 }
 
 img {
